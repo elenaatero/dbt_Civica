@@ -1,7 +1,8 @@
 {{ 
     config(
         materialized='table',
-        tags= ['silver']
+        tags= ['silver'],
+        
     ) 
 }}
 
