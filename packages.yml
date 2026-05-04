@@ -7,9 +7,3 @@ packages:
   - package: metaplane/dbt_expectations
     version: 0.10.10
 
-
-    dbt run-operation generate_source \--args '{"schema_name": "bronze",
-  "database_name": "db19_BRONZE_DB",
-"generate_columns": true}'
-# Generar model YAML (docs + columnas)
-dbt run-operation generate_model_yaml --args '{"model_names": ["stg_postgres_db__ADDRESSES", "stg_postgres_db__ORDERITEMS", "stg_postgres_db__ORDERS", "stg_postgres_db__PRODUCTS", "stg_postgres_db__PROMOS", "stg_postgres_db__USER"]}'

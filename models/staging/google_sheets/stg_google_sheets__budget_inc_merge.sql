@@ -1,7 +1,6 @@
 {{ config(
     materialized='incremental',
-    unique_key = '_row',
-    incremetal_strategy='merge'
+    incremental_strategy='merge'
     ) 
     }}
 

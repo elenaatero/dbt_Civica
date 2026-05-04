@@ -1,6 +1,6 @@
 {{ config(
     materialized='incremental',
-    incremetal_strategy='delete+insert'
+    incremental_strategy='delete+insert'
     ) 
     }}
 
